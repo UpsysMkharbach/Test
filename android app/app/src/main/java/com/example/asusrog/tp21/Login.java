@@ -45,7 +45,8 @@ public class Login extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast.makeText(Login.this,"Error!! login or password are wrong",Toast.LENGTH_LONG).show();
+                    Toast.makeText(Login.this,"Error!! login or password are wrong",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this,"vnnnn",Toast.LENGTH_LONG).show();
                 }
             }
         });
